@@ -1,0 +1,88 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+    font-family: 'Covered By Your Grace', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+.zag{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgb(255, 0, 0);
+    transition: 0.3s;
+    
+}
+.zag:hover{
+    text-shadow: 5px 5px 15px rgb(0, 255, 34);
+    transition: 0.3s;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(2.jpg);
+}
+body{
+    background-image: url(2.jpg);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.f{
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 15px red;
+}
+img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+footer{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+audio{
+    margin-bottom: 115px;
+    box-shadow: 5px 5px 15px red;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+audio:hover{
+    box-shadow: 5px 5px 15px rgb(0, 255, 34);
+    transition: 0.3s;
+}
+.block1{
+    display: inline-block;
+    margin-left: 85px;
+}
+img:hover{
+    box-shadow:5px 5px 15px rgb(0, 255, 34);
+    transition: 0.3s;
+}
+.block2{
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.block3{
+    display: inline-block;
+    margin-left: 280px;
+}
+.block4{
+    display: inline-block;
+    margin-left: 300px;
+}
+.pip{
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 15px red;
+    transition: 0.3s;
+}
+.pip:hover{
+    text-shadow: 5px 5px 15px rgb(0, 255, 34);
+    transition: 0.3s;  
+}
